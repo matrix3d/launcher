@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="431,168" caption="0,0,0,168" bktrans="true">
+	<Font name="微软雅黑" size="12" default="true" />
+	
+	<Container name="vlayout_background" bkimage="file='background.png'">
+        <Button name="minbtn" float="true" pos="359,10,380,39" normalimage="file='min.png' source='0,0,31,29'" hotimage="file='min.png' source='31,0,62,29'" pushedimage="file='min.png' source='62,0,93,29'" />    
+		<Button name="closebtn" float="true" pos="380,10,425,39" normalimage="file='close.png' source='0,0,45,29'" hotimage="file='close.png' source='45,0,90,29'" pushedimage="file='close.png' source='90,0,135,29'" />    
+		
+		<Button name="CustomerService" float="true" pos="262,115,312,165" normalimage="file='CustomerService.png'" />    
+		<Button name="QQGroup" float="true" pos="317,102,380,166" normalimage="file='QQGroup.png'" />
+		
+		<Label name="DownloadMsg" float="true" pos="60,120,260,140" text="正在下载游戏资源（$PROGRESS$/100）" textcolor="0xFFFFFFFF"/>
+		<Label name="DecompressMsg" float="true" pos="60,120,260,140" text="正在解压游戏资源（$PROGRESS$/100）" textcolor="0xFFFFFFFF"/>
+		<Progress name="Progress" float="true" pos="60,140,260,150" value="0" foreimage="file='progress_fore.png'" />
+
+	</Container>
+</Window>
